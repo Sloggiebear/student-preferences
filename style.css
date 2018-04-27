@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,body {
+	height: 100%; 
+	margin: 0px; 
+	padding: 0px;
+	font-family: Open Sans;
+}
+
+#nav {
+	background-color: #E8E8E8;
+}
+
+footer {
+    background-color: #999;
+    color: #FFF;
+    width: 100%;
+	clear: both;
+	padding: 25px;
+}
+
+.bgimage {
+	background-position: center center;
+	background-image: url('./images/bg.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.pink-trans {
+	background:rgba(218,3,114,0.5);
+}
+
+.dark-pink-trans {
+	background:rgba(218,3,114,0.8);
+}
+
+.welcome-header {
+	font-family: Arvo;
+	font-size: 3em;
+	text-transform: uppercase;
+	margin: 0px;
+}
+
+.sub-header {
+	font-family: Open Sans;
+	font-weight: 700;
+	text-transform: uppercase;
+	color:#93074f;
+}
+
+.white {
+	color:#FFF; !important
+}
+ 
+.btn-dark-pink {
+	font-weight: 800;
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #FFF;
+	background-color: #9e165d;
+	border-radius: 10px;
+	border: 1px solid #FFF;
+	padding: 8px 25px 8px 25px;
+}
+
+.btn-white {
+	font-weight: 800;
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #9e165d;
+	background-color: #f6cee3;
+	border-radius: 10px;
+	border: 1px solid #ea83b8;
+	padding: 8px 25px 8px 25px;
+}
